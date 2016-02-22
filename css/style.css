@@ -1,0 +1,69 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+.calculator-container{
+	max-width: 550px;
+	margin: 15% auto;
+	box-shadow: 5px 10px 40px 20px #bdc3c7;
+}
+
+.output{
+	margin-bottom: 0px;
+	padding: 10px 20px;
+	border-radius: 5px 5px 0 0;
+	background: #000000; 
+}
+
+.output p{
+	font-size: 40px;
+	color: #ecf0f1;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.button-group{
+	border-bottom: 1px solid #2c3e50;
+	border-left: 1px solid #2c3e50;
+	border-right: 1px solid #2c3e50;
+}
+
+.button-group:last-child{
+	border-radius: 0 0 5px 5px;	
+}
+
+.btn{
+	width: 100%;
+	border-radius: 0;
+	font-size: 24px;
+}
+
+.gray{
+	background: #ecf0f1;
+	border-right: 1px solid #2c3e50;
+}
+
+.gray:hover{
+	background: #bdc3c7;
+}
+
+.orange{
+	background: #e67e22;
+	color: #ecf0f1;
+}
+
+.orange:hover{
+	background: #d35400;
+	color: #ecf0f1;
+}
+
+.round-left{
+	border-radius: 0 0 0 5px;
+}
+
+.round-right{
+	border-radius: 0 0 5px 0;
+}
